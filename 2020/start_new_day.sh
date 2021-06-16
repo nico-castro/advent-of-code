@@ -66,8 +66,8 @@ if __name__ == \"___main__\":
     main()
 """ >q1_answer.py
 
-  chmod +x q1_answer.py
-  curl -L "https://adventofcode.com/2020/day/$1" >README.html
+  chmod +x q1_answer.py && cd ..
+  python html_to_md.py "https://adventofcode.com/2020/day/$1" "$1"
 
 }
 
