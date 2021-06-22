@@ -1,5 +1,4 @@
 #!/usr/local/bin/python3
-import ipdb
 
 def parse_line(line: str) -> (str, int):
     cmd = line.split(" ")[0]
@@ -7,7 +6,6 @@ def parse_line(line: str) -> (str, int):
     return cmd, val 
 
 def detect_loop(cmds: []) -> bool:
-    # ipdb.set_trace()
     i = 0
     while i < len(cmds):
         cmd, val = parse_line(cmds[i])
