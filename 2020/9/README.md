@@ -1,19 +1,12 @@
 
 
- --- Day 9: Encoding Error ---
--------------------------------
-
-
+# --- Day 9: Encoding Error ---
 
  With your neighbor happily enjoying their video game, you turn your attention to an open data port on the little screen in the seat in front of you.
  
 
-
-
  Though the port is non-standard, you manage to connect it to your computer through the clever use of several paperclips. Upon connection, the port outputs a series of numbers (your puzzle input).
  
-
-
 
  The data appears to be encrypted with the eXchange-Masking Addition System (
  
@@ -39,7 +32,7 @@
  
 
 
-* `26` 
+- `26` 
  would be a
  *valid* 
  next number, as it could be
@@ -51,7 +44,7 @@
  and
  `24` 
  ).
-* `49` 
+- `49` 
  would be a
  *valid* 
  next number, as it is the sum of
@@ -59,13 +52,13 @@
  and
  `25` 
  .
-* `100` 
+- `100` 
  would
  *not* 
  be valid; no two of the previous 25 numbers sum to
  `100` 
  .
-* `50` 
+- `50` 
  would also
  *not* 
  be valid; although
@@ -92,7 +85,7 @@
  
 
 
-* `26` 
+- `26` 
  would still be a
  *valid* 
  next number, as
@@ -100,11 +93,11 @@
  and
  `25` 
  are still within the previous 25 numbers.
-* `65` 
+- `65` 
  would
  *not* 
  be valid, as no two of the available numbers sum to it.
-* `64` 
+- `64` 
  and
  `66` 
  would both be
@@ -155,12 +148,12 @@
  
 
 
-
  The first step of attacking the weakness in the XMAS data is to find the first number in the list (after the preamble) which is
  *not* 
  the sum of two of the 25 numbers before it.
  *What is the first number that does not have this property?* 
 
+Your puzzle answer was `1721308972`.
 
-
+The first half of this puzzle is complete! It provides one gold star: *
 
