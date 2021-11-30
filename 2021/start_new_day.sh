@@ -66,6 +66,9 @@ if __name__ == \"__main__\":
     main()
 """ >q1_answer.py
 
+  session=${AOC_SESSION:=$(read -p "Enter your session cookie: ")}
+  curl https://adventofcode.com/2021/day/$1/input -H "cookie: session=$session" > input.txt
+
   chmod +x q1_answer.py && cd ..
   python html_to_md.py "https://adventofcode.com/2021/day/$1" "$1"
 
