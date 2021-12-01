@@ -27,11 +27,14 @@ DESCRIPTION
     1 #!/usr/local/bin/python3
     2
     3 def main():
-    4     print("Hello world!")
-    5
-    6 if __name__ == "__main__":
-    7     main()
+    4    arr = []
+    5    with open('input.txt') as f:
+    6        for line in f:
+    7            arr.append(line.rstrip())
     8
+    9 if __name__ == "__main__":
+    10     main()
+    11
 
 """
 }
