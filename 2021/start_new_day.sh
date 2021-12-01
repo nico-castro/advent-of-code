@@ -60,7 +60,10 @@ main() {
   echo """#!/usr/local/bin/python3
 
 def main():
-    print(\"Hello World!\")
+    arr = []
+    with open('input.txt') as f:
+        for line in f:
+            arr.append(line.rstrip())
 
 if __name__ == \"__main__\":
     main()
