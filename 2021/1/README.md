@@ -1,9 +1,3 @@
-
-
- window.addEventListener('click', function(e,s,r){if(e.target.nodeName==='CODE'&&e.detail===3){s=window.getSelection();s.removeAllRanges();r=document.createRange();r.selectNodeContents(e.target);s.addRange(r);}});
- 
-
-
  --- Day 1: Sonar Sweep ---
 ----------------------------
 
@@ -258,21 +252,3 @@ H: 792 (*increased*)
  [get your puzzle input](1/input) 
  .
  
-
-
-
- You can also
- 
- [Share
- 
- on
- [Twitter](https://twitter.com/intent/tweet?text=I%27ve+completed+%22Sonar+Sweep%22+%2D+Day+1+%2D+Advent+of+Code+2021&url=https%3A%2F%2Fadventofcode%2Ecom%2F2021%2Fday%2F1&related=ericwastl&hashtags=AdventOfCode) 
-[Mastodon](javascript:void(0);) 
-
- ]
- 
- this puzzle.
- 
-
-
-
