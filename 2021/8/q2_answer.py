@@ -10,11 +10,9 @@
 
 
 def missing_char(s):
-    d = {'a': 1, 'b': 1, 'c': 1, 'd': 1, 'e': 1, 'f': 1, 'g': 1}
-    for c in s:
-        d[c] -= 1
+    d = {'a', 'b', 'c', 'd', 'e', 'f', 'g'}
     for c in d:
-        if d[c] == 1:
+        if c not in s:
             return c
 
 
